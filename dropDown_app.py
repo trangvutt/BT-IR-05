@@ -3,7 +3,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
 
-df=pd.read_csv("/home/trang/Downloads/IR-BT-05-main/Global-Oil-and-Gas-Extraction-Tracker-July-2023.csv")
+df=pd.read_csv("Global-Oil-and-Gas-Extraction-Tracker-July-2023.csv")
 
 #convert some columns into string type so they are easier to work
 df[['Country', 'Operator', 'Owner']] = df[['Country', 'Operator', 'Owner']].astype(str)
